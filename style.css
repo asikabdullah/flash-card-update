@@ -1,0 +1,64 @@
+
+
+ body{
+    background-color:  hsla(221, 45%, 73%, 1);
+
+    background: linear-gradient(90deg, #9bafd9 0%, #9bafd9 0%);
+    
+    background: -moz-linear-gradient(90deg, #9bafd9 0%, #9bafd9 0%);
+    
+    background: -webkit-linear-gradient(90deg, #9bafd9 0%, #9bafd9 0%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", endColorstr="#103783", GradientType=1 );
+    
+} 
+
+.title {
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.term {
+    border: solid 5px rgb(21, 2, 2);
+    border-radius: 15px;
+    background-color: #e95965;
+    opacity: 0.9;
+    
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.definition {
+    border: solid 5px rgb(0, 0, 15);
+    border-radius: 15px;
+    background-color: #e95965;
+    opacity: 0.9;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+}
+
+.button {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    color: white;
+    background-color: rgb(73, 213, 73);
+    padding: 20px;
+    border-radius: 15px; 
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    
+}
